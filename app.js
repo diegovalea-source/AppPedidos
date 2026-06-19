@@ -42,14 +42,34 @@ const providers = [
       { id: "GingerAle", name: "Sch ginger ale premium", unit: "caja" },
       { id: "Limon", name: "Sch limón premium", unit: "caja" },
       { id: "Naranja", name: "Sch naranja premium", unit: "caja" },
-      { id: "Soda", name: "SCh soda premium", unit: "caja" },
+      { id: "Soda", name: "Sch soda premium", unit: "caja" },
       { id: "Casera1/2L", name: "La casera 0,5L", unit: "caja" },
       { id: "Casera1L", name: "La casera 1L PET", unit: "caja" },
      
     ]
   },
   
-  
+  {
+    id: "aceitunas",
+    name: "Monica Giron",
+    type: "Aperitivo",
+    whatsappNumber: "34662438951",
+    products: [
+      { id: "Cocacola", name: "Coca cola normal", unit: "caja" },
+      { id: "CocacolaZero", name: "Coca cola zero", unit: "caja" },
+      { id: "CocacolaLight", name: "Coca cola light", unit: "caja" },
+      { id: "CocacolaZeroZero", name: "Coca cola zero zero", unit: "caja" },
+      { id: "AquariusLimon", name: "Aquarius limón", unit: "caja" },
+      { id: "AquariusNaranja", name: "Aquarius Naranja", unit: "caja" },
+      { id: "Sprite", name: "Sprite", unit: "caja" },
+      { id: "Fuze", name: "Fuze tea", unit: "caja" },
+      { id: "FantaLimon", name: "Fanta limón", unit: "caja" },
+      { id: "FantaNaranja", name: "Fanta naranja", unit: "caja" },
+      { id: "Bitter", name: "Bitter", unit: "caja" },
+      { id: "Cocacola2l", name: "Coca cola 2L", unit: "caja" },
+      { id: "FantaLimon1l", name: "Fanta limón 1L", unit: "caja" },
+    ]
+  },
   
   {
     id: "limpieza",
@@ -201,7 +221,7 @@ function buildMessage() {
   const provider = getSelectedProvider();
   const selectedProducts = getSelectedProducts();
   const lines = [
-    `Hola, necesito hacer este pedido para ${provider.name}:`,
+    `Hola, buenas mando el pedido`,
     "",
     ...selectedProducts.map((product) => `- ${product.quantity} ${product.unit} de ${product.name}`)
   ];
