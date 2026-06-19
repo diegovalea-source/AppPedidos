@@ -3,7 +3,7 @@ const providers = [
     id: "delgado",
     name: "Delgado",
     type: "Agua",
-    whatsappNumber: "34677425298",
+    whatsappNumber: "",
     products: [
       { id: "Solan1L", name: "Solan 1L", unit: "cajas" },
       { id: "Solan1/2L", name: "Solan 0,5L", unit: "cajas" },
@@ -15,7 +15,7 @@ const providers = [
     id: "cocacola",
     name: "Coca cola",
     type: "Bebidas",
-    whatsappNumber: "34677947273",
+    whatsappNumber: "",
     products: [
       { id: "Cocacola", name: "Coca cola normal", unit: "caja" },
       { id: "CocacolaZero", name: "Coca cola zero", unit: "caja" },
@@ -36,7 +36,7 @@ const providers = [
     id: "tonica",
     name: "Schweppes",
     type: "Bebidas",
-    whatsappNumber: "34608628023",
+    whatsappNumber: "",
     products: [
       { id: "Tonica", name: "Sch tónica premium", unit: "caja" },
       { id: "GingerAle", name: "Sch ginger ale premium", unit: "caja" },
@@ -53,27 +53,19 @@ const providers = [
     id: "aceitunas",
     name: "Monica Giron",
     type: "Aperitivo",
-    whatsappNumber: "34662438951",
+    whatsappNumber: "",
     products: [
-      { id: "Cocacola", name: "Coca cola normal", unit: "caja" },
-      { id: "CocacolaZero", name: "Coca cola zero", unit: "caja" },
-      { id: "CocacolaLight", name: "Coca cola light", unit: "caja" },
-      { id: "CocacolaZeroZero", name: "Coca cola zero zero", unit: "caja" },
-      { id: "AquariusLimon", name: "Aquarius limón", unit: "caja" },
-      { id: "AquariusNaranja", name: "Aquarius Naranja", unit: "caja" },
-      { id: "Sprite", name: "Sprite", unit: "caja" },
-      { id: "Fuze", name: "Fuze tea", unit: "caja" },
-      { id: "FantaLimon", name: "Fanta limón", unit: "caja" },
-      { id: "FantaNaranja", name: "Fanta naranja", unit: "caja" },
-      { id: "Bitter", name: "Bitter", unit: "caja" },
-      { id: "Cocacola2l", name: "Coca cola 2L", unit: "caja" },
-      { id: "FantaLimon1l", name: "Fanta limón 1L", unit: "caja" },
+      { id: "Aceituna", name: "Aceituna machacamoya", unit: "cubo" },
+      { id: "AlmendraFrita", name: "Almendra frita", unit: "cubo" },
+      { id: "FrutosSecos", name: "Mix de frutos secos", unit: "cubo" },
+      { id: "PatataFrita", name: "Patatas fritas", unit: "caja" },
+      
     ]
   },
   
   {
     id: "limpieza",
-    name: "Suministros Limpios",
+    name: "Hygilander",
     type: "Limpieza",
     whatsappNumber: "",
     products: [
