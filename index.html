@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#0f766e">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Pedidos">
+    <title>Pedidos</title>
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Pedidos de trabajo</p>
+          <h1>Nuevo pedido</h1>
+        </div>
+        <button class="icon-button" id="clearOrderButton" type="button" aria-label="Vaciar pedido" title="Vaciar pedido">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </header>
+
+      <section class="provider-band" aria-labelledby="providerTitle">
+        <h2 id="providerTitle">Proveedor</h2>
+        <div class="provider-list" id="providerList"></div>
+      </section>
+
+      <section class="content-grid">
+        <div class="panel products-panel">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow" id="selectedProviderType">Catálogo</p>
+              <h2 id="selectedProviderName">Productos</h2>
+            </div>
+            <input id="searchInput" type="search" placeholder="Buscar producto" autocomplete="off">
+          </div>
+          <div class="product-list" id="productList"></div>
+        </div>
+
+        <aside class="panel order-panel" aria-labelledby="orderTitle">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Resumen</p>
+              <h2 id="orderTitle">Pedido</h2>
+            </div>
+            <span class="item-count" id="itemCount">0</span>
+          </div>
+          <div class="order-list" id="orderList"></div>
+          <label class="notes-field">
+            <span>Nota</span>
+            <textarea id="notesInput" rows="3" placeholder="Ej.: entregar antes de las 12"></textarea>
+          </label>
+          <button class="send-button" id="sendButton" type="button" disabled>Enviar por WhatsApp</button>
+        </aside>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
