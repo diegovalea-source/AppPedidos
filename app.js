@@ -45,6 +45,12 @@ const providers = [
       { id: "Soda", name: "Sch soda premium", unit: "caja" },
       { id: "Casera1/2L", name: "La casera 0,5L", unit: "caja" },
       { id: "Casera1L", name: "La casera 1L PET", unit: "caja" },
+      { id: "TrinaLimon", name: "Trina limón", unit: "caja" },
+      { id: "TrinaNaranja", name: "Trina naranja", unit: "caja" },
+      { id: "ZumoTomate", name: "Zumo de tomate", unit: "caja" },
+      { id: "ZumoMelocoton", name: "Zumo de Melocoton", unit: "caja" },
+      { id: "Mosto", name: "Mosto", unit: "caja" },
+      
      
     ]
   },
